@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src=""></script>
+</head>
+<body>
+   <div class="form_container">
+    <div class="left">
+        <form id="login-form" method="post">
+    <h1 class="title_form">Вход</h1>
+
+    <div class="input_cont">
+        <label for="email-input">Электронная почта:</label>
+        <input id="email-input" type="email" name="email" placeholder="example@mail.ru">
+        <div id="email-error" class="error-message"></div>
+    </div>
+
+    <div class="input_cont">
+        <label for="password-input">Пароль:</label>
+        <input id="password-input" type="password" name="password" placeholder="Введите пароль">
+        <div id="password-error" class="error-message"></div>
+    </div>
+    
+    <div class="form_buttom">
+        <div class="checkout">
+            <input id="remember-checkbox" type="checkbox" name="remember">
+            <span>Запомнить меня</span>
+        </div>
+        <a href="">Забыли пароль?</a>
+    </div>
+
+    <input type="submit" value="Войти" class="btn_submit">
+</form>
+<a href="reg.html" class="btn_registration">Зарегистрироваться</a>
+    </div>
+    <div class="right">
+        <div class="cont_right_img">
+            <img src="img/user 1.svg" alt="">
+        </div>
+
+        <div class="text_cont_right">
+                <h1>У зарегистрированных пользователей ряд преимуществ:</h1>
+
+                <p>1. Вам не нужно каждый раз вводить данные для оформления заказа <br> 2. У нас есть скидочная система для постоянных покупателей: <br> — от 50 покупок: 5% <br> — от 150 покупок: 10% <br> — от 350 покупок и выше: 15% <br> 3. Вам на электронную почту будут приходить скидочные промокоды, скидка которых суммируется с уже имеющейся</p>
+            </div>
+    </div>
+   </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
