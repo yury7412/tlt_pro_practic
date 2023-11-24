@@ -150,6 +150,11 @@ a{
     color: red;
 }
 
+.checkout a{
+    color: #181818;
+    text-decoration: none;
+}
+
 
 .btn_registration {
     margin-top: 10px;
